@@ -18,4 +18,9 @@ public class HelloController {
         return "Palli Sai Nithin " + request.getSession().getId();
     }
 
+    @GetMapping("/hi")
+    public String hi(HttpServletRequest request) {
+        return "Hi this is in hi method";
+    }
+
 }
