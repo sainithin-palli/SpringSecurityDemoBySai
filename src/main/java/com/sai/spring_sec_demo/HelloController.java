@@ -20,7 +20,8 @@ public class HelloController {
 
     @GetMapping("/hi")
     public String hi(HttpServletRequest request) {
-        return "Hi this is in hi method (yeah)";
+
+        return "Hi this is in hi method (why man)";
     }
 
 }
