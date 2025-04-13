@@ -9,6 +9,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.sai.spring_sec_demo.model.Student;
+
 import jakarta.servlet.http.HttpServletRequest;
 
 @RestController
